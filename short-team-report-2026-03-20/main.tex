@@ -67,7 +67,7 @@
     The existing peristaltic pump setup suffers from poor pressure sensor dynamic range, unwanted pressure pulsations requiring extensive compliance tubing, and non-physiological pulse rates.
     We propose a dual-syringe pump system driven by stepper motors and lead screws, with voice coil actuators or pinch valves to superimpose a physiological AC waveform onto a steady DC pressure baseline.
     A PID-based control system running on an ESP32 microcontroller enables real-time waveform tracking, with software providing both GUI and CLI interfaces for experiment configuration and data logging.
-    The estimated prototype cost is under 220 GBP, with a final product target of 50--100 GBP, offering a low-cost, reproducible alternative suitable for parallel graft testing.
+    The estimated prototype cost is under £220, with a final product target of £50--£100, offering a low-cost, reproducible alternative suitable for parallel graft testing.
 \end{abstract}
 
 \newpage
@@ -75,9 +75,9 @@
 \section{Clinical motivation}
 
 Haemodialysis is the process of removing blood from the body, passing it through a dialyser which filters it, and then returning it to the body, and is indicated in cases of kidney failure.
-The department is looking to penetrate the artifical vessel graft market by targeting an application that doesn't pose immediate threat to life upon failure (in contrast to grafts for bypass surgery, e.g. coronary bypass), involves use on much shorter timescales, and features simpler medical device regulation.
+the graft will target an application that doesn't pose immediate threat to life upon failure (in contrast to grafts for bypass surgery, e.g. coronary bypass) so regulation will be simpler and there will be a shorter timescale.
 In order to support the high flow rates required for haemodialysis ($>\SI{300}{\milli\liter\per\minute}$), arteriovenous (AV) fistulas are commonly surgically formed.
-In the elderly population, the formation of AV fistulas can be more challenging due to vessel damage from natural and iatrogenic causes (e.g., repeated blood samples over many years), as well as slow time to maturation \supercite{mcgroganArteriovenousFistulaOutcomes2015}.
+In the elderly, the formation of AV fistulas can be more challenging due to vessel damage from natural and iatrogenic causes (e.g., repeated blood samples over many years), as well as slow time to maturation \supercite{mcgroganArteriovenousFistulaOutcomes2015}.
 Synthetic vessel grafts help form a AV fistula with a shorter maturation period, or for patients with exhausted vascular access sites \supercite{akohProstheticArteriovenousGrafts2009}.
 In the case of artificial vessels for uses in bypass grafts, they offer greater availability over the current sources of donor vessels from the great veins of the leg, which may be damaged and require modification in order for arterial applications.
 
@@ -211,7 +211,7 @@ Table 1 shows the specific requirements needed for the pump, as well as their im
     \label{fig:design}
 \end{wrapfigure}
 
-Given the project requirements and desired outputs, the most suitable, low cost design, while having sufficient control was decided to be a dual syringe pump system as shown in \autoref{fig:design}. Two 100ml syringes are to be connected up in parallel, each driven by a separate linear drive mechanism consisting of a stepper motor attached to a lead screw via a gearbox. Continuous flow will be generated with one syringe pushing fluid to the test grafts as the other pulls from the reservoir, alternating every 15 seconds to achieve a 400ml/min flow rate. There will be some overlap with the pushing cycles of the syringes, to avoid a large drop in pressure or flow rate. One-way valves will be placed at the exit of the syringes to prevent backflow, with additional voice coil actuators added downstream of the test region to throttle the flow. These actuators will act to adjust the constant DC pressure output by the syringes, to superimpose the non-standard waveform of the heartbeat. This fine control over the fluid allows closer matching of the physiological conditions of the heart, unlike the peristaltic pump in the original set-up. Two pressure sensors complete the initial design, either side of the test region providing readings for feedback control over the motors and actuators.
+Given the project requirements the dual syringe pump system shown in \autoref{fig:design} was chosen. Two 100ml syringes have separate linear drive mechanisms, consisting of a stepper motor attached to a lead screw via a gearbox. Continuous flow will be generated with one syringe pushing fluid to the test grafts as the other pulls from the reservoir, alternating every 15 seconds to achieve a 400ml/min flow rate. There will be some overlap with the pushing cycles of the syringes, to avoid a large drop in pressure or flow rate. One-way valves will be placed at the exit of the syringes to prevent backflow, with additional voice coil actuators added downstream of the test region to throttle the flow. These actuators will act to adjust the constant DC pressure output by the syringes, to superimpose the non-standard waveform of the heartbeat. This fine control over the fluid allows closer matching of the physiological conditions of the heart, unlike the peristaltic pump in the original set-up. The two pressure sensors provide feedback control.
 
 \section{Mechanical}
 
