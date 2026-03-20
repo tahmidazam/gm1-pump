@@ -387,51 +387,54 @@ There are a few ways to extend the control system, if there is time. For the lab
     \end{tabularx}
     \caption{Bill of materials.}
 \end{table}
+\begin{multicols}{2}
 
-The breakout board with the microcontroller will already include an LED and switches, as well as being pre-soldered, for quick testing. It will also have bluetooth and different peripherals, like I2C protocols available.
+    The breakout board with the microcontroller will already include an LED and switches, as well as being pre-soldered, for quick testing. It will also have bluetooth and different peripherals, like I2C protocols available.
 
-\subsection{Final product cost}
-The final product cost is hard to determine as different configurations may be used. The current estimate is between 50 - 100 pounds, broken down in the table below.
+    \subsection{Final product cost}
+    The final product cost is hard to determine as different configurations may be used. The current estimate is between 50 - 100 pounds, broken down in the table below.
 
-\begin{table}[H]
-    \small
-    \centering
-    \begin{tabular}{lll}
-        \toprule
-        \textbf{item}               & \textbf{qty.} & \textbf{unit cost (£)} \\
-        \midrule
-        microcontroller             & 1             & 5--20                  \\
-        motor controller board      & 1             & 10--20                 \\
-        lead screw \& stepper motor & 2             & 15                     \\
-        pressure sensors            & 2             & 3--10                  \\
-        valves                      & 2--6          & 2                      \\
-        syringes                    & 2             & 1                      \\
-        tubing                      & ---           & ---                    \\
-        \midrule
-        \textbf{total}              &               & \textbf{50--100}       \\
-        \bottomrule
-    \end{tabular}
-    \caption{Final product cost estimate.}
-\end{table}
+    \begin{table}[H]
+        \small
+        \centering
+        \begin{tabular}{lll}
+            \toprule
+            \textbf{item}               & \textbf{qty.} & \textbf{unit cost (£)} \\
+            \midrule
+            microcontroller             & 1             & 5--20                  \\
+            motor controller board      & 1             & 10--20                 \\
+            lead screw \& stepper motor & 2             & 15                     \\
+            pressure sensors            & 2             & 3--10                  \\
+            valves                      & 2--6          & 2                      \\
+            syringes                    & 2             & 1                      \\
+            tubing                      & ---           & ---                    \\
+            \midrule
+            \textbf{total}              &               & \textbf{50--100}       \\
+            \bottomrule
+        \end{tabular}
+        \caption{Final product cost estimate.}
+    \end{table}
 
-\subsection{Departmental resource requests}
-Within the department, we require:
+    \subsection{Departmental resource requests}
+    Within the department, we require:
 
-\begin{itemize}[noitemsep]
-    \item 3D printing materials;
-    \item Tubing, if available;
-    \item Pressure sensors (as discussed with Dr. Peter Long), including T-type connectors;
-    \item Lead screw materials;
-    \item Breadboard, including pins;
-    \item Soldering equipment and material; and
-    \item Perfboard (later in timeline).
-\end{itemize}
+    \begin{itemize}[noitemsep]
+        \item 3D printing materials;
+        \item Tubing, if available;
+        \item Pressure sensors (as discussed with Dr. Peter Long), including T-type connectors;
+        \item Lead screw materials;
+        \item Breadboard, including pins;
+        \item Soldering equipment and material; and
+        \item Perfboard (later in timeline).
+    \end{itemize}
 
-\section{Plan and Timescales}
+    \section{Plan and Timescales}
 
-\subsection{Partition of work during Lent Term}
+    \subsection{Partition of work during Lent Term}
+    The partition of work is outlined in \autoref{tab:partition}.
 
-\begin{table}[H]
+\end{multicols}
+\begin{table}
     \small
     \centering
     \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{1.5cm} X}
@@ -505,6 +508,7 @@ Within the department, we require:
         \bottomrule
     \end{tabularx}
     \caption{Individual contributions}
+    \label{tab:partition}
 \end{table}
 
 \subsection{Easter Term}
