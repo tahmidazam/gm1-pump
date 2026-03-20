@@ -587,16 +587,16 @@ Use of AI involves:
     \begin{equation*}
         F = \Delta P \cdot A_s = \frac{8 \eta L Q R_s^2}{R_t^4}
     \end{equation*}
-    where $R_s$ is the syringe radius and $\eta$ the fluid viscosity. For typical parameters: $L = \SI{2}{\metre}$, $R_t = \SI{2}{\milli\metre}$, $R_s = \SI{1.3}{\centi\metre}$, $Q = \SI{300}{\milli\litre\per\minute}$, $\eta = \SI{1e-3}{\pascal\second}$, the resulting plunger force is $F = \SI{0.845}{\newton}$. This corresponds to a pressure drop of $\Delta P = \SI{5000}{\pascal} = \SI{37.5}{\mmHg}$.
+    where $R_s$ is the syringe radius and $\eta$ the fluid viscosity. For typical parameters: $L = \SI{2}{\metre}$, $R_t = \SI{2}{\milli\metre}$, $R_s = \SI{1.78}{\centi\metre}$, $Q = \SI{400}{\milli\litre\per\minute}$, $\eta = \SI{1.07e-3}{\pascal\second}$, the resulting plunger force is $F = \SI{2.26}{\newton}$. This corresponds to a pressure drop of $\Delta P = \SI{2270}{\pascal} = \SI{17}{\mmHg}$.
 
     \subsection{Pulse rate of existing peristaltic pump}
 
-    The existing peristaltic pump produces 3 pulses per revolution, giving $\text{BPM} = 3 \times \text{RPM}$, where $\text{RPM} = \dot{V} / V_\text{rev}$. The volume displaced per revolution is:
+    The existing peristaltic pump produces 3 pulses per revolution, giving $\text{BPM} = 3 \times \text{RPM}$, where $\text{RPM} = Q / V_\text{rev}$. The volume displaced per revolution is:
     \begin{align*}
-        V_\text{rev} & = \pi D \cdot \pi r^2 = \pi \times \qty{37}{\milli\metre} \times \pi \times (\qty{2.4}{\milli\metre})^2 \\
+        V_\text{rev} & = \pi D \cdot \pi R^2 = \pi \times \qty{37}{\milli\metre} \times \pi \times (\qty{2.4}{\milli\metre})^2 \\
                      & = \qty{2094}{\milli\metre\cubed}
     \end{align*}
-    where $D = \qty{37}{\milli\metre}$ is the pump head diameter (product brochure \cite{KamoerKK1800Peristaltic}) and $r = \qty{2.4}{\milli\metre}$ assuming standard \qty{4.8}{\milli\metre} silicone tubing. At a flow rate of \qty{400}{\milli\litre\per\minute}:
+    where $D = \qty{37}{\milli\metre}$ is the pump head diameter (product brochure \cite{KamoerKK1800Peristaltic}) and $R = \qty{2.4}{\milli\metre}$ assuming standard \qty{4.8}{\milli\metre} inner diameter silicone tubing. At a flow rate of \qty{400}{\milli\litre\per\minute}:
     \begin{equation}
         \text{BPM} = 3 \times \frac{\qty{400}{\milli\litre\per\minute}}{\qty{2.094}{\milli\litre}} \approx 573 \text{ beats per minute}
     \end{equation}
@@ -622,15 +622,15 @@ Use of AI involves:
 
     The plunger displacement required to produce a pressure change $\Delta P$ over time $\Delta t$ is:
     \begin{equation}
-        \Delta x = \frac{\Delta P}{RA} \cdot \Delta t
+        \Delta x = \frac{\Delta P}{RA_s} \cdot \Delta t
     \end{equation}
-    where $R = 8\mu l / \pi r^4$ is the fluidic resistance from Poiseuille's law, $A$ is the syringe cross-sectional area, $\mu$ is the dynamic viscosity of blood, and $l$ and $r$ are the tubing length and radius.
+    where $R = 8\mu L / \pi R_t^4$ is the fluidic resistance from Poiseuille's law, $A_s$ is the syringe cross-sectional area, $\mu$ is the dynamic viscosity of saline, and $L$ and $R_t$ are the tubing length and radius.
 
     \subsection{Tube radius change for pressure modulation}
 
     The change in tube radius required to produce a pressure change $\Delta P$ via the pinch valve is derived from Poiseuille's law:
     \begin{equation}
-        \Delta r = \sqrt[4]{\frac{8Q\mu l}{\pi \Delta P}}
+        \Delta r = \sqrt[4]{\frac{8Q\mu L}{\pi \Delta P}}
     \end{equation}
 \end{multicols}
 
