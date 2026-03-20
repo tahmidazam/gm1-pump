@@ -31,6 +31,7 @@
 \usetikzlibrary{positioning, arrows.meta, matrix, calc}
 \usepackage{circuitikz}
 \usepackage{graphicx}
+\usepackage{wrapfig}
 \addbibresource{gm1_short_team_report.bib}
 \title{
     Short Team Report\\[0.5em] 
@@ -195,16 +196,14 @@ Following on from the development of the design requirements, the following prob
 
 \section{Proposed system overview}
 
-Given the project requirements and desired outputs, the most suitable, low cost design, while having sufficient control was decided to be a dual syringe pump system as shown in \autoref{fig:design}.
-
-\begin{figure}[H]
+\begin{wrapfigure}{r}{0.4\textwidth}
     \centering
-    \includegraphics[width=0.5\textwidth]{../presentation-2026-03-18/images/design.jpg}
+    \includegraphics[width=0.38\textwidth]{../presentation-2026-03-18/images/design.jpg}
     \caption{The proposed dual-syringe design.}
     \label{fig:design}
-\end{figure}
+\end{wrapfigure}
 
-Two syringes are to be connected up in parallel, each driven by a separate linear drive mechanism consisting of a stepper motor attached to a lead screw via a gearbox. Continuous flow will be generated with one syringe pushing fluid to the test grafts as the other pulls from the reservoir. There will be some overlap with the pushing cycles of the syringes, to avoid a large drop in pressure or flow rate. One-way valves will be placed at the exit of the syringes to prevent backflow, with additional voice coil actuators added downstream of the test region to throttle the flow. These actuators will act to adjust the constant DC pressure output by the syringes, to superimpose the non-standard waveform of the heartbeat. This fine control over the fluid allows closer matching of the physiological conditions of the heart, unlike the peristaltic pump in the original set-up. Two pressure sensors complete the initial design, either side of the test region providing readings for feedback control over the motors and actuators.
+Given the project requirements and desired outputs, the most suitable, low cost design, while having sufficient control was decided to be a dual syringe pump system as shown in \autoref{fig:design}. Two syringes are to be connected up in parallel, each driven by a separate linear drive mechanism consisting of a stepper motor attached to a lead screw via a gearbox. Continuous flow will be generated with one syringe pushing fluid to the test grafts as the other pulls from the reservoir. There will be some overlap with the pushing cycles of the syringes, to avoid a large drop in pressure or flow rate. One-way valves will be placed at the exit of the syringes to prevent backflow, with additional voice coil actuators added downstream of the test region to throttle the flow. These actuators will act to adjust the constant DC pressure output by the syringes, to superimpose the non-standard waveform of the heartbeat. This fine control over the fluid allows closer matching of the physiological conditions of the heart, unlike the peristaltic pump in the original set-up. Two pressure sensors complete the initial design, either side of the test region providing readings for feedback control over the motors and actuators.
 
 \section{Mechanical}
 
@@ -275,13 +274,14 @@ Through the software, laboratory personnel will be able to choose a pressure pro
 
 There is huge variation in the pressure profile, and the software plans to offer multiple perspectives by which to model the cardiovascular system. Basic controls involve setting target systolic pressures, diastolic pressures, and heart rate. In addition, we can offer easier set up of experiment sets by incorporating normative data that adjusts these physiological variables for age \supercite{linIdentificationNormalBlood2016}, sex \supercite{joynerSexDifferencesBlood2016}, level of exercise \supercite{sharmanExerciseBloodPressure2015}, temperature, and the type of vessel (i.e., distance from the heart, such as artery, capillary, or venule). The chosen configuration and parameters can be exported, stored, or shared as JavaScript Object Notation (JSON) files for repeatability. The mathematical modelling of pressure profiles consists of splitting the target signal into two components: a constant mean DC pressure component, and an AC component. The DC component we model using the Windkessel model \supercite{westerhofArterialWindkessel2009} and literature values for the Womersley number for different vessel types, sensitive to the aging process \supercite{loudonUseDimensionlessWomersley1998}. The AC component we emulate by conducting Fourier analysis on literature representations of the cardiac cycle, to capture nuances such as the dicrotic notch.
 
+\newpage
 \section{Electrical}
 
-\begin{figure}[H]
+\begin{wrapfigure}{r}{0.4\textwidth}
     \centering
-    \includegraphics[width=0.5\textwidth]{images/elecdiagram.png}
+    \includegraphics[width=0.38\textwidth]{images/elecdiagram.png}
     \caption{Electrical system diagram.}
-\end{figure}
+\end{wrapfigure}
 
 An ESP32 will be used, this will be cheaper and easier to scale compared to an arduino or RP. The display will be an alphanumeric display, anticipating that connecting the laptop may be more complicated than needed at the start. There will be a maximum of 4 stepper motor drivers. 2 will be used to push the syringes, and the other 2 will be used to open and close valves. These will be connected with general purpose I/O pins. Sensors will also be connected with GPIO. The computer will be connected through bluetooth, SPI, or other protocols like I2C, dependent on which is easiest. SPI will be attempted first. Power will be from the computer (5V) for the microcontroller, and from the wall with an adapter for the 12V needed for the motor driver.
 

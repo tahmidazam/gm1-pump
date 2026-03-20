@@ -328,6 +328,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 INPUT ./main.aux
 INPUT ./main.aux

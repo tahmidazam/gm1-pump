@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.5)  20 MAR 2026 11:48
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.5)  20 MAR 2026 11:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1017,39 +1017,46 @@ File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
 \pgfcirc@labelshift=\dimen345
 )
-(/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex)) (/usr/local/texlive/2025/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen346
+\WF@size=\dimen347
+\c@WF@wrappedlines=\count496
+\WF@box=\box131
+\WF@everypar=\toks44
+Package: wrapfig 2003/01/31  v 3.6
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 
 
 Package csquotes Warning: No style for language 'nil'.
-(csquotes)                Using fallback style on input line 53.
+(csquotes)                Using fallback style on input line 54.
 
 Package csquotes Info: Redefining alias 'default' -> 'fallback'.
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1089,7 +1096,7 @@ Package biblatex Info: Trying to load language 'nil'...
 Package biblatex Info: ... file 'nil.lbx' not found.
 
 Package biblatex Warning: Language 'nil' not supported.
-(biblatex)                Using dummy definitions on input line 53.
+(biblatex)                Using dummy definitions on input line 54.
 
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
@@ -1100,33 +1107,34 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 53.
-Package biblatex Info: Reference segment=0 on input line 53.
-Package hyperref Info: Link coloring OFF on input line 53.
+Package biblatex Info: Reference section=0 on input line 54.
+Package biblatex Info: Reference segment=0 on input line 54.
+Package hyperref Info: Link coloring OFF on input line 54.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OT1+cmtl on input line 55.
+LaTeX Font Info:    Trying to load font information for OT1+cmtl on input line 56.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/ot1cmtl.fd
 File: ot1cmtl.fd 2005/04/13 v8.1 (WaS)
 )
 LaTeX Font Info:    Font shape `OT1/cmbr/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmbr/m/sl' tried instead on input line 55.
-LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line 55.
+(Font)              Font shape `OT1/cmbr/m/sl' tried instead on input line 56.
+LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line 56.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line 55.
+LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line 56.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/omscmbrs.fd
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
 )
 LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <9> not available
-(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 56.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 57.
+(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 57.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 58.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1135,27 +1143,27 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 62.
-LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 124.
+(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 63.
+LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 125.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
 File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
 )
-Underfull \hbox (badness 4217) in paragraph at lines 183--183
+Underfull \hbox (badness 4217) in paragraph at lines 184--184
 []|\OT1/cmbr/m/n/9 Enables continuous operation without requiring fluid
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 183--183
+Underfull \hbox (badness 3199) in paragraph at lines 184--184
 []|\OT1/cmbr/m/n/9 Improves physiological realism and compatibility with
  []
 
 
-Underfull \hbox (badness 4156) in paragraph at lines 183--183
+Underfull \hbox (badness 4156) in paragraph at lines 184--184
 []|\OT1/cmbr/m/n/9 Ensures collected data closely mimics in vivo flow
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 183--183
+Underfull \hbox (badness 1442) in paragraph at lines 184--184
 []|\OT1/cmbr/m/n/9 Enables user control of mean, systolic, and diastolic
  []
 
@@ -1168,17 +1176,17 @@ File: ../presentation-2026-03-18/images/design.jpg Graphic file (type bmp)
 
 [3]
 
-LaTeX Warning: Reference `(' on page 4 undefined on input line 229.
+LaTeX Warning: Reference `(' on page 4 undefined on input line 228.
 
 
 
 [4]
-Underfull \hbox (badness 4608) in paragraph at lines 266--266
+Underfull \hbox (badness 4608) in paragraph at lines 265--265
 []|\OT1/cmbr/m/n/9 After AC and DC
  []
 
 
-Underfull \hbox (badness 3803) in paragraph at lines 266--266
+Underfull \hbox (badness 3803) in paragraph at lines 265--265
 []|\OT1/cmbr/m/n/9 Enables feedback control for both AC and DC
  []
 
@@ -1203,6 +1211,8 @@ Missing character: There is no × ("D7) in font cmbr9!
 Missing character: There is no × ("D7) in font cmbr9!
 Missing character: There is no × ("D7) in font cmbr9!
 Missing character: There is no £ ("A3) in font cmbrbx10!
+
+
 [7]
 
 [8]
@@ -1562,12 +1572,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52836 strings out of 473832
- 1244116 string characters out of 5729481
- 2296782 words of memory out of 5000000
- 75370 multiletter control sequences out of 15000+600000
+ 52905 strings out of 473832
+ 1245284 string characters out of 5729481
+ 2306116 words of memory out of 5000000
+ 75435 multiletter control sequences out of 15000+600000
  583744 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  102i,13n,107p,2468b,4958s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (11 pages, 90480 bytes).
+Output written on main.xdv (11 pages, 90420 bytes).
