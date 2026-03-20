@@ -1,19 +1,19 @@
 # Fdb version 4
-["biber main"] 1774017704.08243 "main.bcf" "main.bbl" "main" 1774019991.85702 0
+["biber main"] 1774017704.08243 "main.bcf" "main.bbl" "main" 1774022328.60767 0
   "gm1_short_team_report.bib" 1774002228.02446 22660 5d687dafbe7625e5ddbb88c35ce986ab ""
-  "main.bcf" 1774019991.37594 109475 b888601773cdd7f067e7e75436a466d8 "xelatex"
+  "main.bcf" 1774022328.16652 109475 b888601773cdd7f067e7e75436a466d8 "xelatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1774019991.44368 "main.xdv" "main.pdf" "main" 1774019991.85915 0
-  "main.xdv" 1774019991.37673 92740 1dd07637c27003186c42069d26a5fd6e "xelatex"
+["xdvipdfmx"] 1774022328.23165 "main.xdv" "main.pdf" "main" 1774022328.60945 0
+  "main.xdv" 1774022328.16726 92488 b44dbd4facc675f40b35fb04c2722fb6 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1774019989.9746 "/Users/tahmidazam/Documents/iia/gm1/gm1-pump/short-team-report-2026-03-20/main.tex" "main.xdv" "main" 1774019991.8571 0
+["xelatex"] 1774022326.69261 "/Users/tahmidazam/Documents/iia/gm1/gm1-pump/short-team-report-2026-03-20/main.tex" "main.xdv" "main" 1774022328.60774 0
   "../presentation-2026-03-18/images/design.jpg" 1773837307.45682 181583 d190d8e22f5755ba58f952b3a80b399a ""
-  "/Users/tahmidazam/Documents/iia/gm1/gm1-pump/short-team-report-2026-03-20/main.tex" 1774019991.55183 53162 d7764030718a4b760fc39ebd003fd791 ""
+  "/Users/tahmidazam/Documents/iia/gm1/gm1-pump/short-team-report-2026-03-20/main.tex" 1774022326.50506 53127 1cb5dc1b4c01dc574afaeaf1091689b2 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -38,8 +38,6 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/tbmr10.tfm" 1136768653 1476 1d92fe70b3c834a471e5789b0cf798ef ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/tbmr8.tfm" 1136768653 1472 8a3e093305f49d7f67d3dcb39632ddb8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmri7.tfm" 1254269338 16984 f7462c768466838a2a9e916b6dee71c6 ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmri9.tfm" 1254269338 16968 4675b6ed6aaa9b6b1446f80f565cd449 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty" 1739572459 143388 b008e1666520ff43d0878397f2926242 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/babel/nil.ldf" 1739572459 2703 cf5feb63b6dc4508088fe33d3993964f ""
@@ -195,7 +193,6 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def" 1716410060 31593 96a7f07a08af85a2bbfee2e0a9cdbb50 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty" 1738271527 6565 f51d809db6193fae7b06c1bc26ca8f75 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1724879202 9783 ab4bee47700c04aadedb8da27591b0ab ""
-  "/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd" 1616454256 1882 28c08db1407ebff35a658fd141753d16 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def" 1284153563 1620 fb1c32b818f2058eca187e5c41dfae77 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty" 1284153563 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty" 1601326656 1090 bae35ef70b3168089ef166db3e66f5b2 ""
@@ -225,11 +222,11 @@
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1759654375 5639807 f2490e5eb96f51bf9dbee85bc07eb6bd ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "images/elecdiagram.png" 1774002441.90823 74717 72b306ed988ef444a64ca7820bc8690f ""
-  "main.aux" 1774019991.37396 8994 0da8c06d6861733e1e25a0230ac2e409 "xelatex"
+  "main.aux" 1774022328.16465 8994 533dbd6734f98ec702751446c4e04df0 "xelatex"
   "main.bbl" 1774017704.67611 36085 662af34a9414314dbe54927897315c4a "biber main"
-  "main.out" 1774019991.37513 6295 51f19ed76bdcc5a0ff25f0a32ba725f2 "xelatex"
-  "main.run.xml" 1774019991.37666 2320 ed3ee4ee146e6d302bb8a4bb368652cc "xelatex"
-  "main.tex" 1774019991.55183 53162 d7764030718a4b760fc39ebd003fd791 ""
+  "main.out" 1774022328.16574 6295 51f19ed76bdcc5a0ff25f0a32ba725f2 "xelatex"
+  "main.run.xml" 1774022328.16721 2320 ed3ee4ee146e6d302bb8a4bb368652cc "xelatex"
+  "main.tex" 1774022326.50506 53127 1cb5dc1b4c01dc574afaeaf1091689b2 ""
   (generated)
   "main.aux"
   "main.bcf"
