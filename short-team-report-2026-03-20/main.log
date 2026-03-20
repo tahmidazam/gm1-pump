@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.5)  20 MAR 2026 14:51
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.5)  20 MAR 2026 15:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1167,47 +1167,50 @@ LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 1
  (/usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
 File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
 )
-Underfull \hbox (badness 4217) in paragraph at lines 192--192
+Underfull \hbox (badness 4217) in paragraph at lines 193--193
 []|\OT1/cmbr/m/n/9 Enables continuous operation without requiring fluid
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 192--192
+Underfull \hbox (badness 3199) in paragraph at lines 193--193
 []|\OT1/cmbr/m/n/9 Improves physiological realism and compatibility with
  []
 
 
-Underfull \hbox (badness 4156) in paragraph at lines 192--192
+Underfull \hbox (badness 4156) in paragraph at lines 193--193
 []|\OT1/cmbr/m/n/9 Ensures collected data closely mimics in vivo flow
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 192--192
+Underfull \hbox (badness 1442) in paragraph at lines 193--193
 []|\OT1/cmbr/m/n/9 Enables user control of mean, systolic, and diastolic
  []
 
 
 
 LaTeX Font Info:    Font shape `OT1/cmbr/m/it' in size <9> not available
-(Font)              Font shape `OT1/cmbr/m/sl' tried instead on input line 195.
+(Font)              Font shape `OT1/cmbr/m/sl' tried instead on input line 196.
 [2]
 File: ../presentation-2026-03-18/images/design.jpg Graphic file (type bmp)
 <../presentation-2026-03-18/images/design.jpg>
 
 
 [3]
-
-[4]
-Underfull \hbox (badness 4608) in paragraph at lines 273--273
+Underfull \hbox (badness 4608) in paragraph at lines 269--269
 []|\OT1/cmbr/m/n/9 After AC and DC
  []
 
 
-Underfull \hbox (badness 3803) in paragraph at lines 273--273
+Underfull \hbox (badness 3803) in paragraph at lines 269--269
 []|\OT1/cmbr/m/n/9 Enables feedback control for both AC and DC
  []
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[4]
 
 [5]
 File: images/elecdiagram.png Graphic file (type bmp)
@@ -1235,17 +1238,17 @@ Missing character: There is no £ ("A3) in font cmbrbx10!
 [8]
 
 [9]
-Underfull \hbox (badness 6658) in paragraph at lines 630--632
+Underfull \hbox (badness 6658) in paragraph at lines 626--628
 \OT1/cmbr/m/n/10 This far exceeds the physiological range of
  []
 
 [10]
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'akohProstheticArteriovenousGrafts2009' on input line 669.
+(biblatex)                at entry 'akohProstheticArteriovenousGrafts2009' on input line 665.
 
 LaTeX Font Info:    Font shape `OT1/cmbr/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmbr/m/sl' tried instead on input line 669.
+(Font)              Font shape `OT1/cmbr/m/sl' tried instead on input line 665.
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                The command should be defined in the .lbx file.
@@ -1262,15 +1265,15 @@ Package biblatex Warning: Using fallback definition for \mkbibordinal.
 
 
 Package biblatex Warning: Bibliography string 'july' untranslated
-(biblatex)                at entry 'akohProstheticArteriovenousGrafts2009' on input line 669.
+(biblatex)                at entry 'akohProstheticArteriovenousGrafts2009' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'akohProstheticArteriovenousGrafts2009' on input line 669.
+(biblatex)                at entry 'akohProstheticArteriovenousGrafts2009' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'akohProstheticArteriovenousGrafts2009' on input line 669.
+(biblatex)                at entry 'akohProstheticArteriovenousGrafts2009' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1281,7 +1284,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'NonBacklashSpur' on input line 669.
+(biblatex)                at entry 'NonBacklashSpur' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1292,11 +1295,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'joynerSexDifferencesBlood2016' on input line 669.
+(biblatex)                at entry 'joynerSexDifferencesBlood2016' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'joynerSexDifferencesBlood2016' on input line 669.
+(biblatex)                at entry 'joynerSexDifferencesBlood2016' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1307,11 +1310,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'joynerSexDifferencesBlood2016' on input line 669.
+(biblatex)                at entry 'joynerSexDifferencesBlood2016' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'joynerSexDifferencesBlood2016' on input line 669.
+(biblatex)                at entry 'joynerSexDifferencesBlood2016' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1322,7 +1325,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'KamoerKK1800Peristaltic' on input line 669.
+(biblatex)                at entry 'KamoerKK1800Peristaltic' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1333,11 +1336,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry 'linIdentificationNormalBlood2016' on input line 669.
+(biblatex)                at entry 'linIdentificationNormalBlood2016' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'linIdentificationNormalBlood2016' on input line 669.
+(biblatex)                at entry 'linIdentificationNormalBlood2016' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1348,11 +1351,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'april' untranslated
-(biblatex)                at entry 'linIdentificationNormalBlood2016' on input line 669.
+(biblatex)                at entry 'linIdentificationNormalBlood2016' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'linIdentificationNormalBlood2016' on input line 669.
+(biblatex)                at entry 'linIdentificationNormalBlood2016' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1363,11 +1366,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'loudonUseDimensionlessWomersley1998' on input line 669.
+(biblatex)                at entry 'loudonUseDimensionlessWomersley1998' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'loudonUseDimensionlessWomersley1998' on input line 669.
+(biblatex)                at entry 'loudonUseDimensionlessWomersley1998' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1385,15 +1388,15 @@ Package biblatex Warning: Using fallback definition for \mkbibordinal.
 
 
 Package biblatex Warning: Bibliography string 'march' untranslated
-(biblatex)                at entry 'loudonUseDimensionlessWomersley1998' on input line 669.
+(biblatex)                at entry 'loudonUseDimensionlessWomersley1998' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'loudonUseDimensionlessWomersley1998' on input line 669.
+(biblatex)                at entry 'loudonUseDimensionlessWomersley1998' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'loudonUseDimensionlessWomersley1998' on input line 669.
+(biblatex)                at entry 'loudonUseDimensionlessWomersley1998' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1404,11 +1407,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry 'mcgroganArteriovenousFistulaOutcomes2015' on input line 669.
+(biblatex)                at entry 'mcgroganArteriovenousFistulaOutcomes2015' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'mcgroganArteriovenousFistulaOutcomes2015' on input line 669.
+(biblatex)                at entry 'mcgroganArteriovenousFistulaOutcomes2015' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1426,15 +1429,15 @@ Package biblatex Warning: Using fallback definition for \mkbibordinal.
 
 
 Package biblatex Warning: Bibliography string 'december' untranslated
-(biblatex)                at entry 'mcgroganArteriovenousFistulaOutcomes2015' on input line 669.
+(biblatex)                at entry 'mcgroganArteriovenousFistulaOutcomes2015' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'mcgroganArteriovenousFistulaOutcomes2015' on input line 669.
+(biblatex)                at entry 'mcgroganArteriovenousFistulaOutcomes2015' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'mcgroganArteriovenousFistulaOutcomes2015' on input line 669.
+(biblatex)                at entry 'mcgroganArteriovenousFistulaOutcomes2015' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1445,7 +1448,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'PETGHFa' on input line 669.
+(biblatex)                at entry 'PETGHFa' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1456,7 +1459,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'PneumaticSolenoidValve' on input line 669.
+(biblatex)                at entry 'PneumaticSolenoidValve' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1467,11 +1470,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'sharmanExerciseBloodPressure2015' on input line 669.
+(biblatex)                at entry 'sharmanExerciseBloodPressure2015' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'sharmanExerciseBloodPressure2015' on input line 669.
+(biblatex)                at entry 'sharmanExerciseBloodPressure2015' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1482,15 +1485,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'june' untranslated
-(biblatex)                at entry 'sharmanExerciseBloodPressure2015' on input line 669.
+(biblatex)                at entry 'sharmanExerciseBloodPressure2015' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'sharmanExerciseBloodPressure2015' on input line 669.
+(biblatex)                at entry 'sharmanExerciseBloodPressure2015' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'sharmanExerciseBloodPressure2015' on input line 669.
+(biblatex)                at entry 'sharmanExerciseBloodPressure2015' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1500,13 +1503,13 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--669
+Underfull \hbox (badness 10000) in paragraph at lines 665--665
 []\OT1/cmbr/m/n/8 J. E. Sharman [] A. LaGerche. ?  Exercise
  []
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'smuts2002pid' on input line 669.
+(biblatex)                at entry 'smuts2002pid' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1516,17 +1519,17 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                for \mkbibdatelong.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--669
+Underfull \hbox (badness 10000) in paragraph at lines 665--665
 []\OT1/cmbr/m/n/8 Jacques Smuts. ?  PID controllers explained?
  []
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'westerhofArterialWindkessel2009' on input line 669.
+(biblatex)                at entry 'westerhofArterialWindkessel2009' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'westerhofArterialWindkessel2009' on input line 669.
+(biblatex)                at entry 'westerhofArterialWindkessel2009' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1544,15 +1547,15 @@ Package biblatex Warning: Using fallback definition for \mkbibordinal.
 
 
 Package biblatex Warning: Bibliography string 'february' untranslated
-(biblatex)                at entry 'westerhofArterialWindkessel2009' on input line 669.
+(biblatex)                at entry 'westerhofArterialWindkessel2009' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'westerhofArterialWindkessel2009' on input line 669.
+(biblatex)                at entry 'westerhofArterialWindkessel2009' on input line 665.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'westerhofArterialWindkessel2009' on input line 669.
+(biblatex)                at entry 'westerhofArterialWindkessel2009' on input line 665.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1579,12 +1582,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53249 strings out of 473832
- 1251586 string characters out of 5729481
+ 53247 strings out of 473832
+ 1251532 string characters out of 5729481
  2316086 words of memory out of 5000000
- 75775 multiletter control sequences out of 15000+600000
+ 75773 multiletter control sequences out of 15000+600000
  584095 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  102i,13n,107p,2468b,4959s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (11 pages, 93260 bytes).
+Output written on main.xdv (11 pages, 92740 bytes).
