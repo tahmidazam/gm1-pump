@@ -63,7 +63,15 @@
 \thispagestyle{plain}
 
 \begin{abstract}
+    <<<<<<< Updated upstream
     The bioengineering department are investigating the applications of collagen-based synthetic blood vessels for haemodialysis, involving the measurement of vessel compliance under different pressure profiles. The existing peristaltic pump setup suffers from poor pressure sensor dynamic range, unwanted pressure pulsations requiring extensive compliance tubing, and non-physiological pulse rates. We propose a dual-syringe pump system driven by stepper motors and lead screws, with voice coil actuators or pinch valves to superimpose a physiological AC waveform onto a steady DC pressure baseline. A PID-based control system running on an ESP32 microcontroller enables real-time waveform tracking, with software providing both GUI and CLI interfaces for experiment configuration and data logging. The estimated prototype cost is under £220, with a final product target of £50-100, offering a low-cost, reproducible alternative suitable for parallel graft testing.
+    =======
+    The bioengineering department are investigating the applications of collagen-based synthetic blood vessels for haemodialysis, involving the measurement of vessel compliance under different pressure profiles.
+    The existing peristaltic pump setup suffers from poor pressure sensor dynamic range, unwanted pressure pulsations requiring extensive compliance tubing, and non-physiological pulse rates.
+    We propose a dual-syringe pump system driven by stepper motors and lead screws, with voice coil actuators or pinch valves to superimpose a physiological AC waveform onto a steady DC pressure baseline.
+    A PID-based control system running on an ESP32 microcontroller enables real-time waveform tracking, with software providing both GUI and CLI interfaces for experiment configuration and data logging.
+    The estimated prototype cost is under 220 GBP, with a final product target of 50--100 GBP, offering a low-cost, reproducible alternative suitable for parallel graft testing.
+    >>>>>>> Stashed changes
 \end{abstract}
 
 \newpage
@@ -402,24 +410,24 @@ There are a few ways to extend the control system, if there is time. For the lab
     The breakout board with the microcontroller will already include an LED and switches, as well as being pre-soldered, for quick testing. It will also have bluetooth and different peripherals, like I2C protocols available.
 
     \subsection{Final product cost}
-    The final product cost is hard to determine as different configurations may be used. The current estimate is between 50 - 100 pounds, broken down in the table below.
+    The final product cost is hard to determine as different configurations may be used. The current estimate is between 50 - 100 GBP, broken down in the table below.
 
     \begin{table}[H]
         \small
         \centering
         \begin{tabular}{lll}
             \toprule
-            \textbf{item}               & \textbf{qty.} & \textbf{unit cost (£)} \\
+            \textbf{item}               & \textbf{qty.} & \textbf{unit cost (GBP)} \\
             \midrule
-            microcontroller             & 1             & 5--20                  \\
-            motor controller board      & 1             & 10--20                 \\
-            lead screw \& stepper motor & 2             & 15                     \\
-            pressure sensors            & 2             & 3--10                  \\
-            valves                      & 2--6          & 2                      \\
-            syringes                    & 2             & 1                      \\
-            tubing                      & ---           & ---                    \\
+            microcontroller             & 1             & 5--20                    \\
+            motor controller board      & 1             & 10--20                   \\
+            lead screw \& stepper motor & 2             & 15                       \\
+            pressure sensors            & 2             & 3--10                    \\
+            valves                      & 2--6          & 2                        \\
+            syringes                    & 2             & 1                        \\
+            tubing                      & ---           & ---                      \\
             \midrule
-            \textbf{total}              &               & \textbf{50--100}       \\
+            \textbf{total}              &               & \textbf{50--100}         \\
             \bottomrule
         \end{tabular}
         \caption{Final product cost estimate.}
@@ -443,11 +451,11 @@ There are a few ways to extend the control system, if there is time. For the lab
 
 
 \end{multicols}
-
+\newpage
 \subsection{Partition of work during Lent Term}
 The partition of work is outlined in \autoref{tab:partition}.
 
-\begin{table}
+\begin{table}[H]
     \footnotesize
     \centering
     \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{1cm} X}
@@ -578,7 +586,7 @@ The microcontroller should be able to be controlled by a GUI or CLI for ease of 
 
 \subsection{Fallback design}
 
-Given the resources acquired for the dual-syringe pump method, as a fall-back option to still hit the requirements, a simple gravity-pump system could be set up instead. Hydrostatic pressure: P= rho*g*h with pressure required in the range of 80-120 mmHg, leads to 10.7-16 kPa. So height required to elevate saline source to is h = P/(9810) = 1.09 - 1.63m, above the test grafts, which is just feasible in the laboratory setting. The voice coil actuators could still be added downstream of the grafts to add the non-standard waveform to the pressure profile, with feedback still implemented through pressure sensor measurement and altering actuator frequency. A specialised upper reservoir could be designed to allow a constant level of fluid (to maintain constant pressure) with an overflow outlet above the desired height of fluid, and a steady tap inlet of fluid into the reservoir. However at 300ml/min running for 90 minutes = 27L of fluid required, which would be feasible for water but not saline. The gravity pump could also provide a good option for testing the efficacy of the voice coil actuators as pinch valves, isolated from the effects of the syringe pressures.
+Given the resources acquired for the dual-syringe pump method, as a fall-back option to still hit the requirements, a simple gravity-pump system could be set up instead. Hydrostatic pressure: $P= \rho gh$ with pressure required in the range of 80-120 mmHg, leads to 10.7-16 kPa. So height required to elevate saline source to is h = P/(9810) = 1.09 - 1.63m, above the test grafts, which is just feasible in the laboratory setting. The voice coil actuators could still be added downstream of the grafts to add the non-standard waveform to the pressure profile, with feedback still implemented through pressure sensor measurement and altering actuator frequency. A specialised upper reservoir could be designed to allow a constant level of fluid (to maintain constant pressure) with an overflow outlet above the desired height of fluid, and a steady tap inlet of fluid into the reservoir. However at 300ml/min running for 90 minutes = 27L of fluid required, which would be feasible for water but not saline. The gravity pump could also provide a good option for testing the efficacy of the voice coil actuators as pinch valves, isolated from the effects of the syringe pressures.
 
 \section{Safety considerations}
 This project handles water and electrical components near eachother. Care should be taken to avoid any damage to the electronics, or damage to the person.
