@@ -35,9 +35,10 @@
 \addbibresource{gm1_short_team_report.bib}
 \title{
     Short Team Report\\[0.5em] 
-    \Large Team 2: Low Cost Perfusion Pump\\[0.25em]  
+    \Large Team 2: Low Cost Perfusion Pump, \textit{PulsePump}\\[0.25em]  
     \normalsize Part IIA: \texttt{GM1} \textit{Multidisciplinary Design}
 }
+\usepackage{fancyhdr}
 
 \author[1]{Tahmid Azam}
 \author[1]{Luca Buxton}
@@ -53,6 +54,13 @@
 
 \begin{document}
 \maketitle
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Team 2: Low cost perfusion pump, \textit{PulsePump} \textit{}}
+\fancyhead[R]{\small GM1, Short team report}
+\fancyfoot[C]{\thepage}
+\thispagestyle{plain}
 
 \begin{abstract}
     The bioengineering department are investigating the applications of collagen-based synthetic blood vessels for haemodialysis, involving the measurement of vessel compliance under different pressure profiles. The existing peristaltic pump setup suffers from poor pressure sensor dynamic range, unwanted pressure pulsations requiring extensive compliance tubing, and non-physiological pulse rates. We propose a dual-syringe pump system driven by stepper motors and lead screws, with voice coil actuators or pinch valves to superimpose a physiological AC waveform onto a steady DC pressure baseline. A PID-based control system running on an ESP32 microcontroller enables real-time waveform tracking, with software providing both GUI and CLI interfaces for experiment configuration and data logging. The estimated prototype cost is under \SI{210}{\pounds}, with a final product target of \SIrange{50}{100}{\pounds}, offering a low-cost, reproducible alternative suitable for parallel graft testing.

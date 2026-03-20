@@ -330,6 +330,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.t
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 INPUT ./main.aux
 INPUT ./main.aux
@@ -350,6 +352,7 @@ INPUT ./main.out
 OUTPUT main.out
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbr17.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbr10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbrsl10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/ot1cmtl.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/ot1cmtl.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/ot1cmtl.fd
