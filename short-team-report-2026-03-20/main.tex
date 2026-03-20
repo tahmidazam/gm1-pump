@@ -123,7 +123,7 @@ In the case of artificial vessels for uses in bypass grafts, they offer greater 
 \autoref{fig:existing_bench} displays the current laboratory setup of the perfusion system. The current pump being used is a Kamoer KK1800 peristaltic pump, which uses 3 rollers to occlude sections of the tubing, pushing fluid through a section of compliance tubing, to smooth out any pulsations from the peristaltic pump. The flow then enters the perfusion chamber, where the pressure is measured either side of the collagen graft using 100 PSI-rated pressure sensors. An optical micrometer is used to monitor diameter changes of the graft, in order to ascertain the average compliance of the grafts. Resistance tubing is required downstream of the test section in order to create a back pressure to set the mean pressure of the flow. We have identified some key problem areas of this testing setup:
 \begin{itemize}[noitemsep]
     \item The pressure sensors used in the current setup have a large atmospheric pressure offset, resulting in wasted dynamic range.
-    \item \approx 5 metres of compliance tubing are currently used to smooth unwanted pressure spikes created by the peristaltic pump -- this creates a cluttered workspace and a produces a non-physiological sinusoidal pressure profile.
+    \item $\sim \SI{5}{\metre}$ of compliance tubing are currently used to smooth unwanted pressure spikes created by the peristaltic pump -- this creates a cluttered workspace and a produces a non-physiological sinusoidal pressure profile.
     \item Achieving flow rates of up to 400mL/min requires un-physiologically large pulse rates of approximately 570 BPM (A.2).
 \end{itemize}
 
@@ -376,14 +376,19 @@ There are a few ways to extend the control system, if there is time. For the lab
         Silicone tubing
                        & \href{https://www.polymax.co.uk/silicone/silicone-tubing}{\uline{Polymax listing}}
                        & 15.75                                                                                                                                                                 & 5\,m min.         & 5\,mm OD, 1\,mm wall                  \\
-        
+
         Voice coil actuator
                        &
                        & 30.00
                        & 1
                        & 10\,Hz, 1.31\,mm in 0.1\,s                                                                                                                                                                                                        \\
+        T-type connectors
+                       & \href{https://www.amazon.co.uk/TopHomer-Connector-Corrugated-Irrigation-Connectors/dp/B0CQCXNFT2}{\uline{Amazon listing}}
+                       & 6.00
+                       & 5
+                       &                                                                                                                                                                                                                                   \\
         \midrule
-        \textbf{total} &                                                                                                                                                                       & 209.71            &                                       \\
+        \textbf{total} &                                                                                                                                                                       & 215.71            &                                       \\
         \bottomrule
     \end{tabularx}
     \caption{Bill of materials.}
@@ -436,15 +441,14 @@ There are a few ways to extend the control system, if there is time. For the lab
 
 \end{multicols}
 \begin{table}
-    \small
+    \footnotesize
     \centering
-    \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{1.5cm} X}
+    \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{1cm} X}
         \toprule
-        \textbf{name} & \textbf{activities}                                                                                                                                                               \\
+        \textbf{name} & \textbf{activities}                                                                                                                                                                                                        \\
 
         \midrule
-        Lonnie
-                      & \begin{itemize}[nosep, leftmargin=*]
+        Lonnie        & \begin{itemize}[nosep, leftmargin=*]
                             \item Researched:
                                   \begin{itemize}[nosep, leftmargin=*]
                       \item Electrical components and architecture
@@ -463,7 +467,7 @@ There are a few ways to extend the control system, if there is time. For the lab
                       \item Marked down critical tasks and steps for mitigation
                       \item Scheduled tasks so there would be as little `downtime' as possible for different team members, and there would be rigorous amounts of testing, especially in the first three days to ensure we're on track
                   \end{itemize}
-                        \end{itemize}                                                                           \\
+                        \end{itemize}                                                                                                                    \\
 
         \midrule
         Lucy
@@ -473,7 +477,7 @@ There are a few ways to extend the control system, if there is time. For the lab
                             \item Research into methods of waveform generation through motor (and syringe) speed variation.
                             \item Researched and evaluated different valve configurations to remove backflow (including: check, 3/2 and pinch valves).
                             \item Researched different 3D printer materials for use in syringe housing.
-                        \end{itemize}                                 \\
+                        \end{itemize}                                                                          \\
         \midrule
         Luca
                       & \begin{itemize}[nosep, leftmargin=*]
@@ -489,7 +493,18 @@ There are a few ways to extend the control system, if there is time. For the lab
                   \end{itemize}
                             \item Researched appropriate pressure sensors including type (gauge) and operating range (up to 40\,kPa).
                             \item Researched how pinch valves and voice coil actuators can be used to generate pressure pulses in the flow.
-                        \end{itemize}   \\
+                        \end{itemize}                                            \\
+        \midrule
+        India
+                      & \begin{itemize}[nosep, leftmargin=*]
+                            \item Brainstormed inference and estimation tasks for the pressure data the current lab set up are collecting.
+                            \item Researched the use of different types of control for our problem --- namely PID control and state space control, looking at how to linearise the system to be able to apply linear systems negative feedback control.
+                            \item Mocked up some models using Claude of pressure waveforms, using these waveforms to estimate the minimum sampling frequency of our pressure sensor.
+                            \item Researched best ways of using pressure sensors in a control loop.
+                            \item Sketched up block diagrams for the system to better understand the flow of information in the loop.
+                            \item Simulated some PID control with a Python model of a pressure waveform to demonstrate some feasibility, but this model has lots of assumptions that prove invalid for our use case.
+                        \end{itemize} \\
+
         \midrule
 
         Tahmid
@@ -502,9 +517,9 @@ There are a few ways to extend the control system, if there is time. For the lab
                             \item Research on software options (cross-platform options, input/output using pandas, data analysis in scipy, signal processing, UI solutions in Qt, Python, React, web servers).
                             \item Planned the structure and formatting goals for the presentation and short report.
                             \item Typesetting the presentation and short report in \LaTeX{}.
-                        \end{itemize} \\
+                        \end{itemize}                                          \\
 
-        \midrule
+
 
         \bottomrule
     \end{tabularx}

@@ -409,7 +409,7 @@ INPUT ../presentation-2026-03-18/images/design.jpg
 INPUT ./images/elecdiagram.png
 INPUT ./images/elecdiagram.png
 INPUT ./images/elecdiagram.png
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/tbmr9.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/tbmr8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbrsl8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmtl10.tfm
 INPUT main.aux
